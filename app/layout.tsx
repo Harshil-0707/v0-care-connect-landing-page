@@ -12,7 +12,9 @@ export const metadata: Metadata = {
     "India's largest cancer support community offering guidance, mentorship, and care. Together, we fight. Together, we heal.",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.svg",
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 }
 
