@@ -1,30 +1,7 @@
-# CareConnect landing page
-
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/harshil-0707s-projects/v0-care-connect-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/iLtbShXcTY2)
-
-## Overview
-
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/harshil-0707s-projects/v0-care-connect-landing-page](https://vercel.com/harshil-0707s-projects/v0-care-connect-landing-page)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/iLtbShXcTY2](https://v0.app/chat/iLtbShXcTY2)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. **Project Setup** — Initialized a Next.js 16 project with Tailwind CSS v4, TypeScript, and shadcn/ui components.
+2. **Custom Theme** — Configured a soft purple color palette (`#8A2BE2`, `#F5F3FF`) with CSS variables in `globals.css` for consistent theming.
+3. **Responsive Components** — Built modular React components: `Navbar`, `HeroSection`, `FeaturesSection`, `TestimonialsSection`, `ContactSection`, and `Footer`.
+4. **UI Elements** — Utilized shadcn/ui `Button`, `Card`, `Input`, and `Textarea` components with custom styling overrides.
+5. **Icons** — Integrated Lucide React icons throughout the page for visual elements (Heart, Users, BookOpen, Mail, Phone, etc.).
+6. **Layout & Typography** — Applied Inter + Poppins fonts via Next.js font system with responsive Flexbox/Grid layouts.
+7. **SEO Metadata** — Configured page metadata (title, description, icons) in `layout.tsx` for better discoverability.
