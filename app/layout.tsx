@@ -10,7 +10,10 @@ export const metadata: Metadata = {
   title: "CareConnect — India's Cancer Support Community",
   description:
     "India's largest cancer support community offering guidance, mentorship, and care. Together, we fight. Together, we heal.",
-    generator: 'v0.app'
+  generator: "v0.app",
+  icons: {
+    icon: "/favicon.svg",
+  },
 }
 
 export default function RootLayout({
